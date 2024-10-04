@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "../hivefi-web-demo/*"
+      ]
+    }
+  },
+  "include": [
+    "../hivefi-web-demo/next-env.d.ts",
+    "../hivefi-web-demo/**/*.ts",
+    "../hivefi-web-demo/**/*.tsx",
+    "../hivefi-web-demo/.next/types/**/*.ts",
+    ".next/types/**/*.ts"
+, "components/ui/PerformanceChart.tsx"  ],
+  "exclude": [
+    "../hivefi-web-demo/node_modules"
+  ]
+}

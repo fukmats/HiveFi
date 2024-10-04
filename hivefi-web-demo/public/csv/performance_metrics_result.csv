@@ -1,0 +1,10 @@
+metric,BTC,Backtest,Actual,Description
+Number of Trades,1372,1094,278,"The total number of trades executed in the strategy."
+Cumulative Return (%),149.44249230561897,230.977885671779,276.19787169008407,"The total percentage gain or loss from the start of the strategy until now."
+APY (%),39.756931262063354,77.13351168362229,59.37156437655165,"Annual Percentage Yield: The expected annual return of the strategy."
+Annualized Volatility (%),62.94512894262182,64.50385014995139,54.256402020360426,"The degree of variation in the asset price over the year, indicating risk."
+Sharpe Ratio,0.5683669519473444,1.1340797693246625,1.020903748294124,"A risk-adjusted measure of return, calculated as the ratio of excess return to risk (volatility)."
+Maximum Drawdown (%),-76.66562078818518,-53.54611061754585,-24.979658429064465,"The maximum observed loss from peak to trough before a new peak is achieved."
+VaR (%),-5.151517678267894,-4.830369837390639,-4.017832773582001,"Value at Risk: The maximum loss expected over a set time period, given a specific confidence interval."
+Win Rate (%),49.78134110787172,49.36014625228519,51.438848920863315,"The percentage of trades that resulted in a profit."
+P/L Ratio,1.1104822513951953,1.2110120718953064,1.1056414200025848,"The average profit per winning trade divided by the average loss per losing trade."
